@@ -17,7 +17,7 @@ class SQLServerConnector:
     def connect(self):
         """Establish connection to the SQL Server using the connection string."""
         try:
-            print("hello")
+            print("i am the junior dev")
             self.connection = pyodbc.connect(self.connection_string)
             self.cursor = self.connection.cursor()
             print("Database connection established.")
